@@ -456,7 +456,7 @@ math.hypot(3,4)          # 5.0 ← cạnh huyền
 
 ```python
 n = int(input("n = "))                       # input luôn trả STR
-a, b = map(int, input().split())             # nhập 2 số 1 dòng
+a, b = map(int, input().split(x))             # nhập 2 số 1 dòng
 arr = list(map(float, input().split()))      # nhập dãy
 
 print("a", "b", sep="-", end="!\n")          # a-b!
